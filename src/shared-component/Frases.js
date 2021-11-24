@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
-
-function Frase({nome,sobreNome}) {
+import React from 'react'
+function Frase({saudacao,nome,sobreNome}) {
 
     return (
-        <row>
-            <p>Olá {nome} {sobreNome}</p>
-        </row>
+        <>
+            <h1 className="Texto-centro">{nome} {sobreNome}</h1>
+        </>
     )
 
 }
 
 Frase.propTypes = {
+    saudacao:PropTypes.string,
     nome:PropTypes.string,
     sobreNome:PropTypes.string,
 }
