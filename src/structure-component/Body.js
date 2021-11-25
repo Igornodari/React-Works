@@ -82,7 +82,7 @@ function Body() {
                             </Row>
 
                             <Row>
-                            <Col>
+                                <Col>
                                     <p className="text-subtitle" >Espanhol</p>
                                 </Col>
                                 <Col>
@@ -93,9 +93,25 @@ function Body() {
                                     <p className="bola-preta" alt="logo" />
                                     <p className="bola-preta" alt="logo" />
                                 </Col>
-                               
+
                             </Row>
                             <hr></hr>
+                        </Col>
+
+                        <h1 className="style-hr text-title marginl">SKILLS</h1>
+
+                        <Col className="marginl">
+                            <Row>
+                                <Col>
+                                   
+                                    <hr></hr>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+
+                                </Col>
+                            </Row>
                         </Col>
 
                     </Col>
