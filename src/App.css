@@ -5,9 +5,12 @@
 }
 
 .Texto-centro {
-  margin-top: 0.5rem;
-  line-height: 2.2;
+  margin-top: 1.5rem !important;
+  line-height: 1.2;
   font-style: normal;
+}
+.marginl{
+  margin-left: 95px;
 }
 
 .text-subtitle {
@@ -16,23 +19,63 @@
   font-family: sans-serif;
 }
 
+.text-title {
+  font-weight: bold;
+  color: #3d619d;
+  font-family: sans-serif;
+  font-size: calc(15px + 2vmin) !important;
+}
+.text-title2{
+  font-weight: bold;
+  color: #3d619d;
+  font-family: sans-serif;
+  font-size: calc(10px + 2vmin) !important;
+}
+
+
+.text-subtitle-gray {
+  font-weight: bold;
+  color: #aeaeae;
+  font-family: sans-serif;
+  font-size: calc(5px + 2vmin) !important;
+}
+
+.style-hr {
+  height: 30px;
+  width: auto;
+  border-style: solid;
+  border-color: #3d619d;
+  border-width: 0 0 5px 0;
+  border-radius:2px
+}
+
 .App-logo {
   height: 10vmin;
   border-radius: 200px;
   pointer-events: none;
 }
 
+.App-logo-quadrado {
+  height: 10vmin;
+  pointer-events: none;
+}
 .App-header {
   min-height: auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   font-size: calc(10px + 2vmin);
   color: black;
 }
-.App-header-itens{
-  flex-wrap: wrap;
-  flex-grow: initial;
-  justify-content: space-between
+
+.App-header-itens {
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.App-body-itens {
+  flex-wrap: nowrap;
+  justify-content: start;
 }
 
 .App-conteudo {
@@ -51,7 +94,6 @@
 
 .App-body {
   min-height: auto;
-  font-size: calc(5px + 2vmin);
 }
 
 .App-link {
