@@ -4,13 +4,15 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import perfil from "../perfil.jpg"
 import github from "../github.png"
-import email from "../email.png";
+import bola from "../bola.svg";
 import calendar from "../calendar.svg";
 import linkedin from "../linkedin.png";
 
 import Logo from "../shared-component/Logo";
 
 function Body() {
+
+
 
     return (
         <body className="App-body">
@@ -25,11 +27,12 @@ function Body() {
                             <Col md={2} className="p-0"><img src={calendar} className="App-logo-quadrado text-subtitle-gray p-2" alt="logo" /></Col>
                             <Col md={3} className="p-0 Texto-centro"><p className="text-subtitle-gray m-0 p-0"> 2018-2020</p></Col>
                         </Row>
+                        <hr></hr>
                     </Col>
-
 
                     <Col md={6}>
                         <h1 className="style-hr text-title marginl">FIND ME ONLINE</h1>
+
                         <Col className="marginl">
                             <Row>
                                 <Col>
@@ -45,6 +48,54 @@ function Body() {
                                     <hr></hr>
                                 </Col>
                             </Row>
+                        </Col>
+
+                        <h1 className="style-hr text-title marginl">LANGUAGES   </h1>
+
+                        <Col className="marginl">
+                            <Row>
+                                <Col>
+                                    <p className="text-subtitle" >Portuguese</p>
+                                </Col>
+                                <Col>
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <p className="text-subtitle" >English</p>
+                                </Col>
+                                <Col>
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela" alt="logo" />
+                                    <p className="bola-preta" alt="logo" />
+                                    <p className="bola-preta" alt="logo" />
+                                </Col>
+
+                            </Row>
+
+                            <Row>
+                            <Col>
+                                    <p className="text-subtitle" >Espanhol</p>
+                                </Col>
+                                <Col>
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-amarela " alt="logo" />
+                                    <p className="bola-preta" alt="logo" />
+                                    <p className="bola-preta" alt="logo" />
+                                    <p className="bola-preta" alt="logo" />
+                                </Col>
+                               
+                            </Row>
+                            <hr></hr>
                         </Col>
 
                     </Col>
