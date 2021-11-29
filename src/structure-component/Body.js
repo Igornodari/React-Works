@@ -44,7 +44,11 @@ function Body() {
                                 <p className="text-subtitle-gray m-0 p-0">São Paulo</p>
                             </Col>
                         </Row>
+                        <Row>
+                            
+                        </Row>
                         <hr></hr>
+
                     </Col>
                     <Col md={6}>
                         <h1 className="style-hr text-title marginl">FIND ME ONLINE</h1>
@@ -84,7 +88,7 @@ function Body() {
                             <Row>
                                 <Col>
                                     <p className="text-subtitle  m-0">English</p>
-                                    <p className="text-subtitle-gray m-0 p-0">middle</p>
+                                    <p className="text-subtitle-gray m-0 p-0">Middle</p>
                                 </Col>
                                 <Col>
                                     <p className="bola-amarela " alt="logo" />
@@ -98,7 +102,7 @@ function Body() {
                             <Row>
                                 <Col>
                                     <p className="text-subtitle  m-0">Espanhol</p>
-                                    <p className="text-subtitle-gray m-0 p-0">low</p>
+                                    <p className="text-subtitle-gray m-0 p-0">Low</p>
                                 </Col>
                                 <Col>
                                     <p className="bola-amarela " alt="logo" />
