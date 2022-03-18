@@ -6,6 +6,7 @@ import whatsapp from "../whatsapp.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Frase from '../shared-component/Frases';
 
 function Header() {
 
@@ -39,5 +40,6 @@ function Header() {
     )
 
 }
+    
 
 export default Header

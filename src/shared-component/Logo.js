@@ -12,4 +12,7 @@ function Logo(logo) {
 Logo.propTypes = {
     logo: PropTypes.string,
 }
+function eae(){
+    
+}
 export default Logo
