@@ -2,11 +2,11 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import perfil from "../perfil.jpg"
-import github from "../github.png"
-import location from "../location.svg";
-import calendar from "../calendar.svg";
-import linkedin from "../linkedin.png";
+import perfil from "../images/perfil.jpg"
+import github from "../images/github.png"
+import location from "../images/location.svg";
+import calendar from "../images/calendar.svg";
+import linkedin from "../images/linkedin.png";
 
 function Body() {
 

@@ -1,12 +1,11 @@
 
 import React from 'react'
-import perfil from "../perfil.jpg"
-import email from "../email.png";
-import whatsapp from "../whatsapp.png";
+import perfil from "../images/perfil.jpg"
+import email from "../images/email.png";
+import whatsapp from "../images/whatsapp.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import Frase from '../shared-component/Frases';
 
 function Header() {
 
