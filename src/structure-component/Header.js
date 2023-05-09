@@ -18,8 +18,8 @@ function Header() {
                         <img src={perfil} className="App-logo-nav" alt="logo" />
                     </Col>
                     <Col className="App-header-itens Texto-centro p-0" md={5}>
-                        <h1 className="text-title">IGOR LEAL NODARI</h1>
-                        <p className="text-subtitle" >Front-End Developer</p>
+                        <h1 className="text-title m-4">IGOR LEAL NODARI</h1>
+                        <p className="text-subtitle m-4" >Front-End Developer</p>
                     </Col>
 
                     <Col className="App-header-itens Texto-centro p-0" md={5}>
