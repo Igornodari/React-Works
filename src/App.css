@@ -10,7 +10,7 @@
   font-style: normal;
 }
 .marginl{
-  margin-left: 95px;
+  margin-left: 50px;
 }
 
 .text-subtitle {
@@ -59,7 +59,7 @@
   background-color: #000000;
 }
 .style-hr {
-  height: 30px;
+  height: 10px;
   width: auto;
   border-style: solid;
   border-color: #3d619d;
